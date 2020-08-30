@@ -1,14 +1,14 @@
 Examples
 =========
 
-- Java Selenium Tests via TestNG
+Java Selenium with TestNG
+---------------------------
+- Coming soon
 
-Coming soon
+Python Selenium Tests
+---------------------------
+- Coming soon
 
-- Python Selenium Tests
-
-Coming soon
-
-- Javascript Selenium Test
-
-Coming soon
+Javascript Selenium Tests
+---------------------------
+- Coming soon
