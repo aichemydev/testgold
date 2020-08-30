@@ -10,7 +10,6 @@ As you normally write a selenium test, go ahead and create it in usual form. Sup
 * Javascript Selenium. Embed a single JS test calling selenium. Archives will be supported soon.
 * Selenium IDE. Perhaps the easiest of all. Record a test on the Selenium IDE and then download the JSON that is generated and upload it to us.
 
-
 Upload Process
 ---------------------------
 You can either upload files directly or put in a github url along with a github token for the download.

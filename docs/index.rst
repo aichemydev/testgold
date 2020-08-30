@@ -11,7 +11,9 @@ Welcome to TestGold's documentation!
    :caption: Contents:
 
    introduction
+   design
    usage
+   examples
    community
 
 
