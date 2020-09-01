@@ -1,16 +1,19 @@
 Community
 =========
 
-Forum
------
+Discord
+--------
 
-You are encouraged to join the forum --
-
+You are encouraged to join the discord --
 
 Issues and bugs
 ---------------
 
-If you find an issue or bug, please report it to support@testgold.dev
+There is a public github page for issues at https://github.com/aichemydev/testgold-issues
+
+When submitting an issue, please submit a screenshot or a useloom.com video, it makes it so much easier for you and us :)
+
+If you have feedback, please email it to support@testgold.dev
 
 Help needed
 -----------
