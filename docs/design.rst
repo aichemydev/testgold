@@ -28,8 +28,8 @@ QA managers have told us that instead of spending time on rewriting selenium, th
 Solution
 ---------
 
-As a counter to efficient testing, we hear of lax stories of A/B testing from some teams at Facebook. The claim is you don't need to test software as much,
-and can fix customer reported bugs quickly. That's great if you are Facebook, and are serving social media consumers,
+As a counter to efficient testing, we hear of lax stories of A/B testing from some teams at large social media/entertainment companies. The claim is you don't need to test software as much,
+and can fix customer reported bugs quickly. That's great if you are serving social media consumers,
 but what if you are serving critical enterprise applications. Enterprise solutions have a lot of competition, for cost, customer support, and feature velocity.
 Can you afford a lax attitude for testing?
 
