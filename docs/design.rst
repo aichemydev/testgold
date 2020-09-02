@@ -36,3 +36,12 @@ Can you afford a lax attitude for testing?
 Our solution is a method that empowers QA, removes their drudgery with maintenance of tests to move on to the higher value problems that software managers are looking for.
 
 By supporting selenium interception on various languages, Java, Python, Javascript, and even the Selenium IDE, our aim is to make maintenance painless while letting QA focus on more interesting challenges.
+
+Release Notes
+-------------
+
+- Current release only supports xpath locator healing, CSS and more will be supported in a later release
+
+- Only single files are supported for Python and Javascript, more will be supported in the near future
+
+- Files need to be uploaded or updated with Github URL and token, we are adding more enterprise configuration options in the near future
