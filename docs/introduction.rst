@@ -44,14 +44,12 @@ You should get an email soon after signup. The process is rather simple and illu
    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8700dede84874ac09e6b464049a56798" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-
-
 Status
 ------
 
 Here are some videos from our beginning :-)
 
-We are rapidly changing.
+We are rapidly changing. There are more detailed examples in the examples section.
 
 Java Healing -
 

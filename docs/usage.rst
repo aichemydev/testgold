@@ -15,8 +15,13 @@ Upload Process
 You can either upload files directly or put in a github url along with a github token for the download.
 Once the test is uploaded, the test is run and our AI will understand your test, and heal it as necessary.
 
-Screenshots of all the important use cases
+Overview of important use cases
 ------------------------------------------
 
-* Coming Soon
+* Healing a Java Selenium test
 
+* Healing a Python Selenium test
+
+* Healing a Javascript Selenium test
+
+* Healing a Selenium IDE test
