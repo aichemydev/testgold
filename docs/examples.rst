@@ -32,6 +32,14 @@ Training TestGold with a Good Selenium Jar
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1af437ff3238427c872262cfb2e643a3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+
+Workflow for using TestNG and Gradle
+------------------------------------------
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6ed9bbafeadf4fac98ab13f2dffa48d9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 Using TestGold to heal a broken test
 -------------------------------------
 
