@@ -8,8 +8,8 @@ Introduction
 Presentation
 ------------
 
-TestGold is a solution that heals your selenium tests and ensures they will work
-continue to work even after your application software changes.
+TestGold is a test automation solution that heals your selenium tests and ensures they will work
+continue to work even after your application software changes. Unlike other solutions, TestGold works with your existing selenium tests and resources, without having to learn a new language/framework or do anything differently.
 
 It's for selenium coders who want to keep using Selenium while enjoying AI based
 healing, stability, and easy test augmentation.  It will reduce costs and risks
