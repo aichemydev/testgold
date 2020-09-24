@@ -11,8 +11,11 @@ Welcome to TestGold's documentation!
    :caption: Contents:
 
    introduction
+   releasenotes
    design
    usage
+   testpackages
+   testdependencies
    examples
    community
 

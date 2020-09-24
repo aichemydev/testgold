@@ -8,11 +8,14 @@ Introduction
 Presentation
 ------------
 
-TestGold is a solution that heals your selenium tests and ensures they will work continue to work even after your application software changes.
+TestGold is a solution that heals your selenium tests and ensures they will work
+continue to work even after your application software changes.
 
-Its for selenium coders who want to keep using Selenium while enjoying AI based healing, stability, and easy test augmentation.
-It will reduce costs and risks by easily ensuring the health and auto-maintenance of your selenium tests.
-TestGold is the only automation solution of its kind that auto-completes your tests.
+It's for selenium coders who want to keep using Selenium while enjoying AI based
+healing, stability, and easy test augmentation.  It will reduce costs and risks
+by easily ensuring the health and auto-maintenance of your selenium tests.
+TestGold is the only automation solution of its kind that auto-completes your
+tests.
 
 
 Features
@@ -20,7 +23,7 @@ Features
 
 Heals Selenium Tests written in
     - Java
-    - Javascript (NodeJS)
+    - Javascript and Typescript (NodeJS)
     - Python
     - Selenium IDE (very handy for Manual QA or Business Analysts)
 
@@ -33,11 +36,15 @@ Heals Selenium Tests written in
 - Visual Dashboards, Filters, and ability to view history
 
 Availability
------------
+------------
 
-Sign up for a free account at https://beta.testgold.dev
+1. Email support@testgold.dev for an invitation code.
 
-You should get an email soon after signup. The process is rather simple and illustrated here
+2. Sign up for a free account at `https://beta.testgold.dev
+   <https://beta.testgold.dev>`_.
+
+You should get an email soon after signup. The process is rather simple and
+illustrated here:
 
 .. raw:: html
 
