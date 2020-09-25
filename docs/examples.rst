@@ -1,6 +1,14 @@
 Examples
 =========
 
+Illustrative Example: Healing Broken tests on Walmart.com
+----------------------------------------------------------
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/share/41640b8885864761b886bc8693cfe256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
 Registration on https://beta.testgold.dev
 -----------------------------------------
 
@@ -41,12 +49,6 @@ Workflow for using TestNG and Gradle
     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6ed9bbafeadf4fac98ab13f2dffa48d9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
  
-Test Healing on Walmart.com
-------------------------------------------
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/share/41640b8885864761b886bc8693cfe256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Using TestGold to heal a broken test
 -------------------------------------
