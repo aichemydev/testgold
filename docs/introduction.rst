@@ -25,6 +25,11 @@ A good illustration of the Automation Nowhere problem without using solutions li
    :align: center
    :alt: Automation Nowhere
 
+Source: Infosys 2019
+
+As you can see, after a bunch of automation tests are in place, due to the pace of application changes,
+maintenance of existing tests becomes more important than increasing coverage.
+
 
 Features
 --------
