@@ -3,7 +3,10 @@ Introduction
 
 .. raw:: html
 
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/8RdCfVT"><a href="https://imgur.com/a/8RdCfVT">TestGold Launches</a></blockquote><script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
+.. image:: _static/testgold_launches_page.png
+   :width: 100%
+   :align: center
+   :alt: TestGold Launches Page
 
 Presentation
 ------------
