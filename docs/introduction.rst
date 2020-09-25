@@ -9,13 +9,21 @@ Presentation
 ------------
 
 TestGold is a test automation solution that heals your selenium tests and ensures they will
-continue to work even after your application software changes. Unlike other solutions, TestGold works with your existing selenium tests and resources, without having to learn a new language/framework or do anything differently.
+continue to work even after your application software changes. Unlike other solutions,
+TestGold works with your existing selenium tests and resources, without having to learn a new language/framework or do anything differently.
 
 It's for selenium coders who want to keep using Selenium while enjoying AI based
 healing, stability, and easy test augmentation.  It will reduce costs and risks
 by easily ensuring the health and auto-maintenance of your selenium tests.
 TestGold is the only automation solution of its kind that auto-completes your
 tests.
+
+A good illustration of the Automation Nowhere problem without using solutions like TestGold is:
+
+.. image:: _static/automation_nowhere.png
+   :width: 100%
+   :align: center
+   :alt: Automation Nowhere
 
 
 Features
