@@ -1,8 +1,6 @@
 Introduction
 ============
 
-.. raw:: html
-
 .. image:: _static/testgold_launches_page.png
    :width: 100%
    :align: center

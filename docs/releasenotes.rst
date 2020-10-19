@@ -6,6 +6,15 @@ The notes below indicate what has changed with each release of our platform.
 Next release
 ------------
 
+- Test scripts can be now be run and healed in your own test environment, using
+  our downloadable Selenium Interceptor packages for Javascript, Java, and
+  Python. See :doc:`Using our Selenium Interceptor externally <./externaluse>`
+  for details.
+
+
+2020-09-21
+------------
+
 - Generic archive files (tarballs, zip files, etc.) can now be uploaded as a
   test dependency. These will be unpacked in the test run directory to make
   their contents available for your test scripts.

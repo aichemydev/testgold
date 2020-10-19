@@ -16,6 +16,7 @@ Welcome to TestGold's documentation!
    usage
    testpackages
    testdependencies
+   externaluse
    examples
    community
 
