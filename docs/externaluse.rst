@@ -62,34 +62,34 @@ package and our API heals your tests:
   current state of a web page for the TestGold API instead of all elements. This
   can greatly speed up processing for a highly complex web page.
 
-- **INTERCEPTOR_FILTER_DISPLAYED**: This is set to '0' by default. If set to '1',
+- **INTERCEPTOR_FILTER_ENABLED**: This is set to '0' by default. If set to '1',
   only currently enabled elements will be used to generate a snapshot of the
   current state of a web page for the TestGold API instead of all elements. This
   can greatly speed up processing for a highly complex web page.
 
 - **INTERCEPTOR_HANDLE_FAILURE**: If this is set to 'suggest-xpaths' (default),
-  broken XPaths that are untrained (they were not uploaded to the TestGold API
-  for training our learning algorithms before) will not immediately fail. The
-  TestGold API will instead attempt to heal them in-place, and suggest
-  alternative XPaths that may select the element that was intended to be
-  selected. This is not as powerful as our usual XPath healing engine, but
-  provides a reasonable fall-back option if all you have is a broken XPath and
-  no way to get to the initial known-good state of an XPath and Selenium tests.
+  broken XPaths that are untrained (that were not uploaded to the TestGold API
+  for training our learning algorithms on a working version of the web page)
+  will not immediately fail. The TestGold API will instead attempt to heal them
+  in-place, and suggest alternative XPaths that may select the element that was
+  intended to be selected. This is not as powerful as our usual XPath healing
+  engine, but provides a reasonable fall-back option if all you have is a broken
+  XPath and no way to get to the initial known-good state of an XPath in a
+  Selenium test.
 
 - **INTERCEPTOR_FAST_HEAL**: Every time the Selenium Interceptor encounters an
   XPath and the resulting element selection is successful, it collects
   information on the element and the current state of the web page to send to
-  the TestGold API for training our healing engine. This extra work can
+  the TestGold API for training our healing engine. This processsing can
   sometimes slow down your tests. If you've already run a training session on
   web page for our API or you are sure that the state of a currently broken web
-  page has not changed between your test runs, set this environment variable to
-  '1' to skip this information collection and assume that the page has not
-  changed in state between the current run and any previous runs of the
-  Interceptor.
+  page has not changed since your last test run, set this environment variable
+  to '1' to skip this information collection.
 
-  This variable is set to '0' by default to ensure the TestGold API always is
+  This variable is set to '0' by default to ensure the TestGold API is always
   up-to-date on the latest state of the web page under test. Note that if the
   TestGold API detects that the web page contents have changed since its last
-  snapshot of the web page, it will not send stale healing results, in which the
-  Interceptor will automatically collect all the required information to
-  snapshot the current state of the web page and send it to the API.
+  snapshot of the web page, it will not send stale healing results. The
+  Interceptor will be notified in this case, and it will automatically
+  re-collect all the required information to snapshot the current state of the
+  web page and send it to the API for healing.
