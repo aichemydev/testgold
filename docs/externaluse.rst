@@ -1,4 +1,4 @@
-Using the Selenium Interceptor externally
+Using the TestGold Interceptor externally
 =========================================
 
 We now support direct calls to our healing API from Selenium tests running
@@ -76,7 +76,7 @@ package and our API heals your tests:
   provides a reasonable fall-back option if all you have is a broken XPath and
   no way to get to the initial known-good state of an XPath and Selenium tests.
 
-- **INTERCEPTOR_FAST_HEAL**: Every time the Selenium Interceptor encounters an
+- **INTERCEPTOR_FAST_HEAL**: Every time the TestGold Interceptor encounters an
   XPath and the resulting element selection is successful, it collects
   information on the element and the current state of the web page to send to
   the TestGold API for training our healing engine. This extra work can
@@ -93,3 +93,12 @@ package and our API heals your tests:
   snapshot of the web page, it will not send stale healing results, in which the
   Interceptor will automatically collect all the required information to
   snapshot the current state of the web page and send it to the API.
+
+- **INTERCEPTOR_RESULT_JSON**: if this environment variable is set, it should
+  point to a .json file on disk where the results for successful XPath heals and
+  suggestions from the TestGold API will be saved. The file name will be
+  prefixed with the test run request ID as assigned by the TestGold API.
+
+- **INTERCEPTOR_LOG_LEVEL**: Set to one of '1' (debug), '2' (info, default), '3'
+  (warning), or '4' (error). This affects the verbosity of the Interceptor
+  logging.
