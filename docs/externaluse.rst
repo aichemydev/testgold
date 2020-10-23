@@ -101,3 +101,8 @@ package and our API heals your tests:
 - **INTERCEPTOR_LOG_LEVEL**: Set to one of '1' (debug), '2' (info, default), '3'
   (warning), or '4' (error). This affects the verbosity of the Interceptor
   logging.
+
+- **INTERCEPTOR_RUN_NAME**: Set this environment variable to specify a name for
+  your test run. This will show up in the TestGold UI and allow you to correlate
+  your test run with its results using this name in addition to the test run ID
+  assigned by the TestGold API.
