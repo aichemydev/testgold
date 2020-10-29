@@ -33,7 +33,7 @@ download page, then install one of the Interceptor packages.
 
 - **Python**: Download the Interceptor package and install it using pip:
   ``pip install <interceptor-package-name>.whl``. This will override your usual
-  Selenium Python package dependency automatically.
+  Selenium Python package dependency automatically. Make sure that your python and pip paths are properly configured. You can check those with ``which python`` and ``which pip`` in your terminal.
 
 Run your Selenium tests as normal, making sure the **TESTGOLD_AIO_TOKEN**
 environment variable is set. The Interceptor will log its actions and the
