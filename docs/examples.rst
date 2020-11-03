@@ -64,6 +64,15 @@ Using TestGold to heal a test with syntax errors
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d11b6a37eabb42ccbf2a34db57e3b5fa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    
+    
+New Platform Demo -- use AI in less than 2 minutes!
+---------------------------------------------------
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/961085453a4149699b648d24e210c526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 Python Selenium Tests
 ---------------------------
