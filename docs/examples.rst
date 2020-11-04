@@ -1,37 +1,58 @@
 Examples
 =========
 
+7 step video on the platform:
+
+
+Step 1 - Registration
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c85b479808344199b0dbf5d886c67fe4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 2 - Getting your Token
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/a8c6556a1b504b8aa874b9896a8df6a9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 3 - Set the token as an environment variable
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/f78e1a8b62034d67acfde2ae3b2d00b4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 4 - Download the packages
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/6a53896c0cd44bbc8108077a6c3c83c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 5 - Run your original script with learning enabled (default if you have installed the packages)
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/2fe1ef0e14de41a69f2d017c1ad726c5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 6 - Run the script on the new version of the website, healing will happen as it runs
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/0b75254982944f8cb044c7fa27c07a55" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Step 7 - Check script's healing results on the UI
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/e9100fda9725406c98fd6b167328f775" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
 Illustrative Example: Healing Broken tests on Walmart.com
 ----------------------------------------------------------
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/41640b8885864761b886bc8693cfe256" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-Registration on https://beta.testgold.dev
------------------------------------------
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/676b17b6a4da4bd8b09a070be0d9eb2e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-Launches Page
--------------
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c5b7c9403e7c49b19e0773f4cc97c7aa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-Java Selenium with TestNG
----------------------------
-- ReactBank example
-- Go to https://github.com/aichemydev/selenium-java-examples
-- Build 2 jars (the ONLY difference between the 2 jars is the website they operate on)
-- Submit the old Jar to the TestGold platform for learning
-- Try it on the modified new jar, you will notice that it correctly fails the jar at first, but then heals it based on the learnings from the old jar.
-- As a bonus, you get suggestions to improve your xpaths and more.
 
 Training TestGold with a Good Selenium Jar
 ------------------------------------------
@@ -66,32 +87,3 @@ Using TestGold to heal a test with syntax errors
     <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d11b6a37eabb42ccbf2a34db57e3b5fa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
     
-New Platform Demo -- use AI in less than 2 minutes!
----------------------------------------------------
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/961085453a4149699b648d24e210c526" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-Python Selenium Tests
----------------------------
-- ReactBank example
-- Go to https://github.com/aichemydev/selenium-python-examples
-- There are 2 python script tests - first https://github.com/aichemydev/selenium-python-examples/blob/master/reactbank/reactbank_test_old.py as the script on the old site
-- second https://github.com/aichemydev/selenium-python-examples/blob/master/reactbank/reactbank_test_new.py
-- Again, note that the only difference between the two python scripts are the different urls for the tests
-- Submit the old python script to the TestGold platform for learning
-- Try it on the modified new python script, you will notice that it correctly fails the script at first, but then heals it correctly based on the learnings from the old python script.
-- As a bonus, you get suggestions to improve your xpaths and more.
-
-Javascript Selenium Tests
----------------------------
-- ReactBank example for JS with NodeJS
-- Go to https://github.com/aichemydev/selenium-js-examples
-- There are 2 JS tests - first https://github.com/aichemydev/selenium-js-examples/blob/master/reactbank/reactbank-test-old.js as the script on the old site
-- second https://github.com/aichemydev/selenium-js-examples/blob/master/reactbank/reactbank-test-new.js
-- Again, note that the only difference between the two JS scripts are the different urls for the tests
-- Submit the old JS script to the TestGold platform for learning
-- Try it on the modified new python script, you will notice that it correctly fails the script at first, but then heals it correctly based on the learnings from the old python script.
-- As a bonus, you get suggestions to improve your xpaths and more.

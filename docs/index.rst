@@ -13,9 +13,6 @@ Welcome to TestGold's documentation!
    introduction
    releasenotes
    design
-   usage
-   testpackages
-   testdependencies
    externaluse
    examples
    community

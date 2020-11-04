@@ -52,18 +52,18 @@ Heals Selenium Tests written in
 Availability
 ------------
 
-1. Email support@testgold.dev for an invitation code.
+1. Sign up for a free account at `https://serve.testgold.dev
+   <https://serv.testgold.dev>`_.
 
-2. Sign up for a free account at `https://beta.testgold.dev
-   <https://beta.testgold.dev>`_.
+2. Your account will be fully activated shortly.
+
 
 You should get an email soon after signup. The process is rather simple and
 illustrated here:
 
 .. raw:: html
 
-   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/8700dede84874ac09e6b464049a56798" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
+   <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c85b479808344199b0dbf5d886c67fe4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Status
 ------
@@ -72,14 +72,8 @@ Here are some videos from our beginning :-)
 
 We are rapidly changing. There are more detailed examples in the examples section.
 
-Java Healing -
+Healing -
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/41ce0f06f5eb4f2aa0065e58e80b833e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-Map View -
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7935ece5f2304915a20c98b07e52c297" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/0b75254982944f8cb044c7fa27c07a55" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
