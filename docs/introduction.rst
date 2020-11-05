@@ -52,8 +52,8 @@ Heals Selenium Tests written in
 Availability
 ------------
 
-1. Sign up for a free account at `https://serve.testgold.dev
-   <https://serv.testgold.dev>`_.
+1. Sign up for a free account at `https://nocode.testgold.dev
+   <https://nocode.testgold.dev>`_.
 
 2. Your account will be fully activated shortly.
 
