@@ -11,10 +11,10 @@ Welcome to TestGold's documentation!
    :caption: Contents:
 
    introduction
-   releasenotes
    design
    externaluse
    examples
+   releasenotes
    community
 
 

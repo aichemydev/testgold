@@ -1,5 +1,5 @@
-Using the TestGold Interceptor externally
-=========================================
+Using the TestGold Interceptor
+==============================
 
 We now support direct calls to our healing API from Selenium tests running
 outside of our own service. For this purpose, we have released Selenium packages
@@ -8,9 +8,8 @@ XPaths for web automation tests that run in your own environment. These
 *TestGold Interceptor* packages can be used in place of the usual Selenium
 packages to take advantage of our API.
 
-To download these packages, contact `support@testgold.dev
-<mailto:support@testgold.dev>`_. You will be pointed to a page that hosts these
-packages after you sign up for an account.
+These packages are downloadable at the settings page, after your account is activated. Contact `support@testgold.dev
+<mailto:support@testgold.dev>`_ if you are not activated within 24 hours.
 
 .. image:: _static/interceptor-download.png
    :width: 100%
