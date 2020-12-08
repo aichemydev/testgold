@@ -11,6 +11,12 @@ Next release
   Python. See :doc:`Using our Selenium Interceptor externally <./externaluse>`
   for details.
 
+- CSS selectors are now supported, enabling heal and suggest processing of
+  Selenium's ``findElement(By.CSS_SELECTOR)``, ``findElement(By.CLASS_NAME)``,
+  ``findElement(By.NAME)``, and ``findElement(By.ID)``.
+
+- Initial support for Appium selector healing.
+
 
 2020-09-21
 ------------
@@ -32,14 +38,13 @@ Next release
 2020-09-09
 ----------
 
-- We now support adding dependencies for test scripts. See :doc:`Test
-  Dependencies <./testdependencies>` for details. This is enabled for Javascript
-  and Python test scripts for the moment. Java support will come later.
+- We now support adding dependencies for test scripts. This is enabled for
+  Javascript and Python test scripts for the moment. Java support will come
+  later.
 
 - Tests can now be run using Python and Javascript packages. For Python, we
   accept packages in the following formats: .whl, .tar.gz, .zip. For Javascript,
-  we accept NPM packages in the following formats: .tar.gz, .tgz. See
-  :doc:`Using Packages <./testpackages>` for details.
+  we accept NPM packages in the following formats: .tar.gz, .tgz.
 
 2020-09-02
 ----------
