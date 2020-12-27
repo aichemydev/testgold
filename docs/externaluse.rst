@@ -20,7 +20,7 @@ Using the Interceptor packages
 ------------------------------
 
 A single environment variable is required for the Interceptor packages to
-interface with our API. Set the **TESTGOLD_AIO_TOKEN** as directed on the
+interface with our API. Set the **TG_TOKEN** as directed on the
 download page, then install one of the Interceptor packages.
 
 - **Java**: Download the Interceptor package JAR and replace any references to
@@ -34,7 +34,7 @@ download page, then install one of the Interceptor packages.
   ``pip install <interceptor-package-name>.whl``. This will override your usual
   Selenium Python package dependency automatically. Make sure that your python and pip paths are properly configured. You can check those with ``which python`` and ``which pip`` in your terminal.
 
-Run your Selenium tests as normal, making sure the **TESTGOLD_AIO_TOKEN**
+Run your Selenium tests as normal, making sure the **TG_TOKEN**
 environment variable is set. The Interceptor will log its actions and the
 results of the XPath/CSS selector healing process to the terminal console. It
 will also provide a **results URL** where you can browse the results of each
@@ -46,27 +46,27 @@ Customizing Interceptor execution
 You may set the following environment variables to customize how the Interceptor
 package and our API heals your tests:
 
-- **USE_INTERCEPTOR**: This is set to '1' by default. Set this to '0' to make
+- **TG_ENABLED**: This is set to '1' by default. Set this to '0' to make
   the Interceptor package behave exactly like normal Selenium, with no calls to
   the TestGold API for healing broken XPaths or CSS selectors.
 
-- **WAL_SERVER_TIMEOUT**: Sets how long to wait for each broken XPath or CSS
+- **TG_SERVER_TIMEOUT**: Sets how long to wait for each broken XPath or CSS
   selector to be healed by the TestGold API. Most heals are complete within 30
   seconds for uncomplicated web pages, but highly complex web pages may take
   several minutes for the TestGold API to return a result for broken
   XPaths or CSS selectors. This is set to 10 minutes by default.
 
-- **INTERCEPTOR_FILTER_DISPLAYED**: This is set to '0' by default. If set to '1',
+- **TG_FILTER_DISPLAYED**: This is set to '0' by default. If set to '1',
   only currently displayed elements will be used to generate a snapshot of the
   current state of a web page for the TestGold API instead of all elements. This
   can greatly speed up processing for a highly complex web page.
 
-- **INTERCEPTOR_FILTER_ENABLED**: This is set to '0' by default. If set to '1',
+- **TG_FILTER_ENABLED**: This is set to '0' by default. If set to '1',
   only currently enabled elements will be used to generate a snapshot of the
   current state of a web page for the TestGold API instead of all elements. This
   can greatly speed up processing for a highly complex web page.
 
-- **INTERCEPTOR_NEIGHBOR_MAXDIST**: This sets the maximum radius in pixels of a
+- **TG_NEIGHBOR_MAXDIST**: This sets the maximum radius in pixels of a
   circle centered around the original target web-element that will be searched
   for candidates matching the target element on an updated web-page. This
   environment variable is set to -1 by default, meaning the entire web-page will
@@ -75,7 +75,7 @@ package and our API heals your tests:
   circle of the specified radius. This can greatly speed up selector heal and
   suggest processing of complex pages.
 
-- **INTERCEPTOR_HANDLE_FAILURE**: If this is set to 'suggest-xpaths' (default),
+- **TG_HANDLE_FAILURE**: If this is set to 'suggest-xpaths' (default),
   broken XPaths or CSS selectors that are untrained (that were not uploaded to
   the TestGold API for training our learning algorithms on a working version of
   the web page) will not immediately fail. The TestGold API will instead attempt
@@ -85,7 +85,7 @@ package and our API heals your tests:
   option if all you have is a broken XPath/CSS selector and no way to get to the
   initial known-good state of an XPath/CSS selector in a Selenium test.
 
-- **INTERCEPTOR_FAST_HEAL**: Every time the TestGold Interceptor encounters an
+- **TG_FAST_HEAL**: Every time the TestGold Interceptor encounters an
   XPath or CSS selector and the resulting element selection is successful, it
   collects information on the element and the current state of the web page to
   send to the TestGold API for training our healing engine. This processsing can
@@ -101,17 +101,17 @@ package and our API heals your tests:
   Interceptor will automatically collect all the required information to
   snapshot the current state of the web page and send it to the API.
 
-- **INTERCEPTOR_RESULT_JSON**: if this environment variable is set, it should
+- **TG_RESULT_JSON**: if this environment variable is set, it should
   point to a .json file on disk where the results for successful XPath/CSS
   selector heals and suggestions from the TestGold API will be saved. The file
   name will be prefixed with the test run request ID as assigned by the TestGold
   API.
 
-- **INTERCEPTOR_LOG_LEVEL**: Set to one of '1' (debug), '2' (info, default), '3'
+- **TG_LOG_LEVEL**: Set to one of '1' (debug), '2' (info, default), '3'
   (warning), or '4' (error). This affects the verbosity of the Interceptor
   logging.
 
-- **INTERCEPTOR_RUN_NAME**: Set this environment variable to specify a name for
+- **TG_RUN_NAME**: Set this environment variable to specify a name for
   your test run. This will show up in the TestGold UI and allow you to correlate
   your test run with its results using this name in addition to the test run ID
   assigned by the TestGold API.
