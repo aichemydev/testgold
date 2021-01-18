@@ -115,3 +115,12 @@ package and our API heals your tests:
   your test run. This will show up in the TestGold UI and allow you to correlate
   your test run with its results using this name in addition to the test run ID
   assigned by the TestGold API.
+
+Enabling deep healing
+---------------------------------
+
+Sometimes regular healing process is not optimal: different broken xpaths may be healed to the same 
+xpath. Obviously, this is an error, which can't be handled at the moment of initial processing. For 
+this reason you can enable the second stage of healing, which solves such collisions. Just set 
+**DEEP_HEAL** environment variable to '1'. This will make testgold compare the results of the whole 
+script and rewrite them, if it find collisions.
