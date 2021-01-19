@@ -125,9 +125,28 @@ this reason you can enable the second stage of healing, which solves such collis
 **DEEP_HEAL** environment variable to '1'. This will make testgold compare the results of the whole 
 script and rewrite them, if it finds collisions.
 
+Original page:
+
+.. image:: _static/collision_old.png
+   :width: 100%
+   :align: center
+   :alt: Original page example
+
+Muatated page with possible collisions:
+
+   .. image:: _static/collision_new.png
+   :width: 100%
+   :align: center
+   :alt: Mutated page example
+
 User Feedback
 ---------------------------------
 
 We want to make sure, that testgold provides the best possible healing for your testscripts. For this we've 
 added a feedback feature, that you can use to select a candidate, that matches original element better than 
 the best prediction of our algorithm. It gives a training example for our AI and helps it process similar cases.
+
+.. image:: _static/feedback.png
+   :width: 100%
+   :align: center
+   :alt: User feedback button
