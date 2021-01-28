@@ -134,7 +134,7 @@ Original page:
 
 Muatated page with possible collisions:
 
-   .. image:: _static/collision_new.png
+.. image:: _static/collision_new.png
    :width: 100%
    :align: center
    :alt: Mutated page example
