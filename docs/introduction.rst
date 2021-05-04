@@ -1,5 +1,5 @@
-Introduction
-============
+TestGold key concepts
+---------------------
 
 TestGold is a test automation solution that auto heals your existing selenium tests and ensures they will
 continue to work even after your application software changes. Unlike other solutions,
@@ -12,70 +12,37 @@ by easily ensuring the health and auto-maintenance of your selenium tests.
 TestGold is the only automation solution of its kind that auto-completes your
 tests.
 
-.. image:: _static/testgold_launches_page.png
+.. image:: _static/testgold_summary_page.png
    :width: 100%
    :align: center
-   :alt: TestGold Test Runs Page
+   :alt: TestGold Summary Page
+   
+   
+How to get Started   
+-------------------
+
+The first step is Registration. Creating an account on TestGold is extremely simple. On the https://nocode.testgold.dev/login page click on Sign up.
+You can either choose the sign up using Github , sign up using Google Option or just enter a suitable email id and password.
 
 
-
-
-
-A good illustration of the Automation Nowhere problem without using solutions like TestGold is:
-
-.. image:: _static/automation_nowhere.png
+.. image:: _static/testgold_signup_page.png
    :width: 100%
    :align: center
-   :alt: Automation Nowhere
-
-Source: Infosys 2019
-
-As you can see, after a bunch of automation tests are in place, due to the pace of application changes,
-maintenance of existing tests becomes more important than increasing coverage.
+   :alt: TestGold Sign Up Page
 
 
-Features
---------
+Once you are signed up you will receive a mail. Click on the the link on the mail to verify your account.
+Once verified your account will be activated by the TestGold team in 24 hours. You know have a Token known as the TG_TOKEN. 
+This is unique to your username and enabled you to run your scripts using TestGold.
 
-Heals Selenium Tests written in
-    - Java
-    - Javascript and Typescript (NodeJS)
-    - Python
-    - Selenium IDE (very handy for Manual QA or Business Analysts)
-
-- Visual view of your tests and the healing that was done
-
-- Learns from your working tests and applies the knowledge to broken tests
-
-- Makes suggestions on working and failing tests to improve maintainability
-
-- Visual Dashboards, Filters, and ability to view history
-
-Availability
-------------
-
-1. Sign up for a free account at `https://nocode.testgold.dev
-   <https://nocode.testgold.dev>`_.
-
-2. Your account will be fully activated shortly.
+.. image:: _static/testgold_config_page.png
+   :width: 100%
+   :align: center
+   :alt: TestGold Configuration Page
 
 
-You should get an email soon after signup. The process is rather simple and
-illustrated here:
+The second step is to login. Once you login you will see the configurations page. Download the appropriate interceptor package .
+You can choose either Python , Java , Javascript, Cypress or Appium . Add the required settings mentioned for each interceptor.
+Set your TG_TOKEN value. Run your scripts now and get ready to see the magic happen.
 
-.. raw:: html
 
-   <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c85b479808344199b0dbf5d886c67fe4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-Status
-------
-
-Here are some videos from our beginning :-)
-
-We are rapidly changing. There are more detailed examples in the examples section.
-
-Healing -
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/0b75254982944f8cb044c7fa27c07a55" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
