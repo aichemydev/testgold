@@ -11,9 +11,11 @@ Welcome to TestGold's documentation!
    :caption: Contents:
 
    introduction
+   version
    design
    externaluse
    examples
+   faq
    releasenotes
    community
 
