@@ -1,14 +1,14 @@
 Using the TestGold Interceptor
 ==============================
 
-We now support direct calls to our healing API from Selenium tests running
+We  support direct calls to our healing API from Selenium tests running
 outside of our own service. For this purpose, we have released Selenium packages
 for Java, Javascript, and Python that interface with our API and obtain healed
 XPaths or CSS selectors for web automation tests that run in your own
 environment. These *TestGold Interceptor* packages can be used in place of the
 usual Selenium packages to take advantage of our API.
 
-These packages are downloadable at the settings page, after your account is activated. Contact `support@testgold.dev
+These packages are downloadable on the configurations page, after your account is activated. Contact `support@testgold.dev
 <mailto:support@testgold.dev>`_ if you are not activated within 24 hours.
 
 .. image:: _static/interceptor-download.png
@@ -33,6 +33,10 @@ download page, then install one of the Interceptor packages.
 - **Python**: Download the Interceptor package and install it using pip:
   ``pip install <interceptor-package-name>.whl``. This will override your usual
   Selenium Python package dependency automatically. Make sure that your python and pip paths are properly configured. You can check those with ``which python`` and ``which pip`` in your terminal.
+
+- **Cypress**: Download the Cypress Interceptor Package and install it using NPM.
+
+
 
 Run your Selenium tests as normal, making sure the **TG_TOKEN**
 environment variable is set. The Interceptor will log its actions and the
@@ -115,6 +119,12 @@ package and our API heals your tests:
   your test run. This will show up in the TestGold UI and allow you to correlate
   your test run with its results using this name in addition to the test run ID
   assigned by the TestGold API.
+  
+- **TG_IGNORE** : If you need to ignore healing on certain selectors, you can add them to a .tgignore file
+  and put the path of the file in this variable. Our interceptor will not try to heal those selectors.	
+  
+- **TG_TAKE_SCREENSHOTS** : This variable is set to 1 by default. If you set it to 0 the interceptor will not take
+  any screenshots during the entire process. You can choose this if you do not want screenshots of your application being saved anywhere.
 
 Enabling deep healing
 ---------------------------------
@@ -142,11 +152,11 @@ Muatated page with possible collisions:
 User Feedback
 ---------------------------------
 
-We want to make sure, that testgold provides the best possible healing for your testscripts. For this we've 
-added a feedback feature, that you can use to select a candidate, that matches original element better than 
+We want to make sure, that testgold provides the best possible healing for your testscripts. On our screenshot page we have
+added a feedback feature. You can use it to select a candidate, that matches the original element better than 
 the best prediction of our algorithm. It gives a training example for our AI and helps it process similar cases.
 
-.. image:: _static/feedback.png
+.. image:: _static/testgold_feedback.png
    :width: 100%
    :align: center
-   :alt: User feedback button
+   :alt: User feedback 

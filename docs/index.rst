@@ -15,6 +15,7 @@ Welcome to TestGold's documentation!
    design
    externaluse
    examples
+   security
    faq
    releasenotes
    community
