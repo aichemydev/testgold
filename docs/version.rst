@@ -9,7 +9,7 @@ If you don't see your version in this list, Please don't worry. Reach out to us 
 to provide a suitable version for your organization.
 
 
-.. image:: _static/testgold_version.png
+.. image:: _static/testgold_versions.png
    :width: 100%
    :align: center
    :alt: TestGold Version Page
