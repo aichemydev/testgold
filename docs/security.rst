@@ -1,7 +1,5 @@
-TESTGOLD™ Platform Security Highlights
+TESTGOLD Platform Security Highlights
 ======================================
-
-
 
 User model
 ----------
