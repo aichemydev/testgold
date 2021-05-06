@@ -20,11 +20,11 @@ Frequently Asked Questions
 
 	The overhead is very low. Less that 30% of the script time. Also it helps you save lots of time on rework and maintainance of scripts.
 	
-5)What languages are supported ?
+5) What languages are supported ?
 
 	We support Selenium with Java , Javascript , Python , Cypress and Appium. 
 	
-6)Can I use the scripts recorded using Selenium IDE?
+6) Can I use the scripts recorded using Selenium IDE?
 
 	Yes, Testgold lets you upload your .side scripts and will provide both suggestions and healing for the scripts.
 
