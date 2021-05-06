@@ -12,6 +12,7 @@ Welcome to TestGold's documentation!
 
    introduction
    version
+   architecture
    design
    externaluse
    examples

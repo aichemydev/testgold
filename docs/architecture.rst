@@ -63,6 +63,7 @@ Driver, and the installation will be identical to the above.
 CI/CD Integration
 -------------------
 
+
 .. image:: _static/testgold_ci_cd.png
    :width: 100%
    :align: center
