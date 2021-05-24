@@ -126,6 +126,10 @@ package and our API heals your tests:
 - **TG_TAKE_SCREENSHOTS** : This variable is set to 1 by default. If you set it to 0 the interceptor will not take
   any screenshots during the entire process. You can choose this if you do not want screenshots of your application being saved anywhere.
 
+- **TG_ALL_SUGGEST**: Set this variable to 1 when you wish to collect a list of suggested xpaths for every element of the
+  pages visited in a test run. This is accompanied with element descriptions and screenshots. This feature is currently only available for the
+  Python Interceptor.
+
 Enabling deep healing
 ---------------------------------
 
