@@ -4,18 +4,17 @@ Start Here
 TestGold key concepts
 ---------------------
 
-TestGold is a test automation solution that auto heals your existing selenium tests and ensures they will
-continue to work even after your application software changes. Unlike other solutions,
-TestGold works with your existing selenium tests and resources, without having to learn a new language/framework or do anything differently.
+TestGold is a test automation solution that uses deep learning to auto heal test decay caused by rapid feature addition. Unlike other solutions,
+TestGold works with your existing tests and resources, without having to learn a new language/framework or do anything differently.
 You can start using the TestGold solution in less than 10 minutes.
 
-It's for selenium coders who want to keep using Selenium while enjoying AI based
+It's for coders who want to keep their existing workflow while enjoying AI based
 healing, stability, and easy test augmentation.  It will reduce costs and risks
-by easily ensuring the health and auto-maintenance of your selenium tests.
+by easily ensuring the health and auto-maintenance of your tests.
 TestGold is the only automation solution of its kind that auto-completes your
 tests.
 
-.. image:: _static/testgold_summary_page.png
+.. image:: _static/testgold_testrun_summary_page.png
    :width: 100%
    :align: center
    :alt: TestGold Summary Page
@@ -61,7 +60,7 @@ The Dashboard
    :alt: TestGold Dashboard Page
 
 
-The Dashboard has a summary of all the TestRuns run until now. It tells you how much time you have saved ,
+The Dashboard provides an overview of the lifetime productivity improvements and test statistics. It tells you how much time you have saved ,
 the total number of healing and suggestions etc.
 
 
@@ -73,8 +72,15 @@ The Test Runs Page
    :align: center
    :alt: TestGold Test Runs Page
 
-This page contains all the Tests run so far. It shows the Test Run , time taken , #heals , # suggestions and Run time.
-The latest test is always on top. Clicking on a Test Run shows you further detail about the particular Test Run.
+This page displays the test runs along with quick access to high level information such as a description, run time, total paths, healed paths . 
+By default, the your results will be displayed chronologically. Clicking on a Test Run shows you further detail about the particular Test Run.
+
+.. image:: _static/testgold_testruns_actions_page.png
+   :width: 100%
+   :align: center
+   :alt: TestGold Test Runs Page
+
+You can also access more options for each test by selecting the vertical elipses at the right of each row. Options here include the ability to update run info, retry the test, or remove it.
 
 
 
@@ -108,7 +114,7 @@ our algorithm. It also shows you the original value and the TestGold value side
 by side to enable comparison of the accuracy.
 
 
-Test Run Screenshots
+Test Run Suggestions
 
 .. image:: _static/testgold_testrun_table_page.png
    :width: 100%
@@ -116,6 +122,7 @@ Test Run Screenshots
    :alt: TestGold Test Runs Table Page
 
 
-This view shows all the Selectors in a table form. It also lists out the entire set of suggestions provided by TestGold.
-You can also see the original selectors , healed selectors etc in the table format. The user can also download all the data to a CSV and
-analyse at leisure.
+This page shows all the suggested selectors as well as any selectors that have been healed automatically. In the enhanced paths tab, you can click the details button to see more suggestions that may be available.
+In the right hand side of the action bar, you can access multiple download options. Here, you can download a csv file containing all suggestions that have been generated. Depending on the type of test, you may have more options available here.
+Some of those options include the ability to download a copy of your Katalon xml, generate Selenium page object models and test or Cypress test files. 
+
