@@ -70,16 +70,13 @@ script** and wait for the test run to complete. This menu also contains several 
 
 - **Ignore invisible elements**: 
 
-- **Collect element data & try to fix broken selectors**: Selecting this option enabled deep heal. This will make testgold compare the results of the whole 
-   script and rewrite them, if it finds collisions.
+- **Collect element data & try to fix broken selectors**: Selecting this option enabled deep heal. This will make testgold compare the results of the whole script and rewrite them, if it finds collisions.
 
-- **Generate selectors for all elements on each visited page**: Selecting this option will generate optimal selectors for all elements on the pages visited during this test. 
-   This is a very intensive process and test execution time is dependent on the number of elements that exist on the pages.
+- **Generate selectors for all elements on each visited page**: Selecting this option will generate optimal selectors for all elements on the pages visited during this test. This is a very intensive process and test execution time is dependent on the number of elements that exist on the pages.
 
 - **Collect page-interaction event data for test case augmentation**: This option allows you to take advantage of features in the test enhancer and app map sections of the product.
 
-- **Continue test suite execution if a component test fails**: Test suites may sometimes be depend on the successful completion of earlier tests for later tests to pass. 
-   In that case, using this option will avoid unecessary runs in the case a test fails earlier in the test suite.
+- **Continue test suite execution if a component test fails**: Test suites may sometimes be depend on the successful completion of earlier tests for later tests to pass. In that case, using this option will avoid unecessary runs in the case a test fails earlier in the test suite.
 
 .. image:: _static/katalon-run.gif
    :width: 100%
