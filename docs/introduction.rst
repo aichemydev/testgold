@@ -6,7 +6,7 @@ TestGold key concepts
 
 TestGold is a test automation solution that uses deep learning to auto heal test decay caused by rapid feature addition. Unlike other solutions,
 TestGold works with your existing tests and resources, without having to learn a new language/framework or do anything differently.
-You can start using the TestGold solution in less than 10 minutes.
+You can start using the TestGold solution in less than 10 minutes!
 
 It's for coders who want to keep their existing workflow while enjoying AI based
 healing, stability, and easy test augmentation.  It will reduce costs and risks
@@ -23,7 +23,7 @@ tests.
 How to get Started
 -------------------
 
-The first step is Registration. Creating an account on TestGold is extremely simple. On the https://nocode.testgold.dev/login page click on Sign up.
+The first step is registration. Creating an account on TestGold is extremely simple. On the https://nocode.testgold.dev/login page click on Sign up.
 You can either choose the sign up using Github , sign up using Google Option or just enter a suitable email id and password.
 
 
@@ -45,7 +45,7 @@ This is unique to your username and enabled you to run your scripts using TestGo
 
 The second step is to login. Once you login you will see the configurations page. Download the appropriate interceptor package .
 You can choose either Python , Java , Javascript, Cypress or Appium . Add the required settings mentioned for each interceptor.
-Set your TG_TOKEN value. Run your scripts now and get ready to see the magic happen.
+Set your TG_TOKEN value. Run your scripts now and get ready to see the magic happen. From here, you also have quick access to the documentation for reference.
 
 
 Navigating the TestGold UI
@@ -60,8 +60,8 @@ The Dashboard
    :alt: TestGold Dashboard Page
 
 
-The Dashboard provides an overview of the lifetime productivity improvements and test statistics. It tells you how much time you have saved ,
-the total number of healing and suggestions etc.
+The Dashboard provides an overview of the improvements and test statistics. At a glance, it tells you how much time you have saved,
+the total number of tests healed and suggestions etc.
 
 
 
@@ -78,13 +78,9 @@ By default, the your results will be displayed chronologically. Clicking on a Te
 .. image:: _static/testgold_testruns_actions_page.png
    :width: 100%
    :align: center
-   :alt: TestGold Test Runs Page
+   :alt: TestGold Test Runs Actions
 
 You can also access more options for each test by selecting the vertical elipses at the right of each row. Options here include the ability to update run info, retry the test, or remove it.
-
-
-
-Test Run Details
 
 
 Test Run Summary
@@ -92,7 +88,7 @@ Test Run Summary
 .. image:: _static/testgold_testrun_summary_page.png
    :width: 100%
    :align: center
-   :alt: TestGold Test Runs Page
+   :alt: TestGold Test Summary Page
 
 
 The summary page gives you all statistics about the Test Run. It highlights the time saved for the test run, suggestions offered
@@ -119,10 +115,22 @@ Test Run Suggestions
 .. image:: _static/testgold_testrun_table_page.png
    :width: 100%
    :align: center
-   :alt: TestGold Test Runs Table Page
+   :alt: TestGold Test Runs Suggestions Page
 
 
 This page shows all the suggested selectors as well as any selectors that have been healed automatically. In the enhanced paths tab, you can click the details button to see more suggestions that may be available.
 In the right hand side of the action bar, you can access multiple download options. Here, you can download a csv file containing all suggestions that have been generated. Depending on the type of test, you may have more options available here.
-Some of those options include the ability to download a copy of your Katalon xml, generate Selenium page object models and test or Cypress test files. 
+Some of those options include the ability to download a copy of your Katalon xml, generate Selenium page object models and test or Cypress test files. For selenium outputs, click on the selenium icon to view more options. 
+This includes selenium test script, a page object model containing all suggested selectors from a test, as well as a selenium test script which incorporates the POM file.
 
+
+
+Test Enhancer
+
+.. image:: _static/testgold_test_enhancer_page.png
+   :width: 100%
+   :align: center
+   :alt: TestGold Test Enhancer Page
+
+This page is where you can view an modify your test and prepare them for use with Testgold's Coverage Enhancememt Engine. Here you can add verifications and variables to let your test do more work for you! 
+On this page you can understand more about step in the test via descriptions which are available in an enhanced natural language representation, making it easier to make modifications. 
