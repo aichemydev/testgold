@@ -130,6 +130,11 @@ package and our API heals your tests:
   pages visited in a test run. This is accompanied with element descriptions and screenshots. This feature is currently only available for the
   Python Interceptor.
 
+- **TG_LOCATOR_BANK**: Set this variable to 1 when you wish to enable to locator bank feature on TestGold. Doing so will store selector information for the purpose 
+  of identifying when multiple selectors reference the same element. By identifying when multiple selectors reference the same element, it is possible to standardize 
+  tests with optimal selectors therefore improving maintainability. Furthermore, if a selector needs to be healed, the locator bank can identify other tests with references 
+  to the same element and preemptively perform healing automatically.
+
 Enabling deep healing
 ---------------------------------
 

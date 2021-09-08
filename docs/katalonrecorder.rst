@@ -56,23 +56,30 @@ Make sure the file saved ends with ``.xml``.
 Upload the exported test script to TestGold
 -------------------------------------------
 
-Log in to the TestGold dashboard and then click on the **Run Selenium IDE or
-Katalon Recorder script** button.
+Log in to the TestGold dashboard and then click on the **Add Test** button. This brings up the following form:
 
 .. image:: _static/upload-katalon-xml.png
    :width: 100%
    :align: center
    :alt: Katalon Recorder save exported file
 
-This brings up the following form:
-
-.. image:: _static/katalon-run-form.png
-   :width: 100%
-   :align: center
-   :alt: Katalon Recorder save exported file
-
 Give your test run a name and upload your exported XML file. Click on **Run test
-script** and wait for the test run to complete.
+script** and wait for the test run to complete. This menu also contains several run options.
+
+- **Ignore disabled elements**: 
+
+- **Ignore invisible elements**: 
+
+- **Collect element data & try to fix broken selectors**: Selecting this option enabled deep heal. This will make testgold compare the results of the whole 
+   script and rewrite them, if it finds collisions.
+
+- **Generate selectors for all elements on each visited page**: Selecting this option will generate optimal selectors for all elements on the pages visited during this test. 
+   This is a very intensive process and test execution time is dependent on the number of elements that exist on the pages.
+
+- **Collect page-interaction event data for test case augmentation**: This option allows you to take advantage of features in the test enhancer and app map sections of the product.
+
+- **Continue test suite execution if a component test fails**: Test suites may sometimes be depend on the successful completion of earlier tests for later tests to pass. 
+   In that case, using this option will avoid unecessary runs in the case a test fails earlier in the test suite.
 
 .. image:: _static/katalon-run.gif
    :width: 100%
