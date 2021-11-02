@@ -16,6 +16,7 @@ Welcome to TestGold's documentation!
    design
    externaluse
    katalonrecorder
+   githubactions
    examples
    security
    faq
